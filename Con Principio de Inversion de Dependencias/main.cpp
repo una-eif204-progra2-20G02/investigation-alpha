@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 #include "Boton.h"
 using namespace std;
 int main(int argc, char** argv) {
@@ -14,4 +7,5 @@ int main(int argc, char** argv) {
     _b.preionar(false);//Llamada metodo void con decision
     return 0;//Regreasa 0
 }
+
 

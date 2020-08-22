@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.cpp
+Boton.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
+Interface.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.cpp
+Interface.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
+Lampara.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.cpp
+Lampara.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+iostream
+-
+
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/main.cpp
+Boton.h
+/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
+
