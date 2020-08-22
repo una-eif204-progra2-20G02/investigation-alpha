@@ -67,6 +67,10 @@
 >   mensaje presionar () que determina, si el usuario lo ha presionado o no, y
 >   una clase Lampara, la cual recibe los mensajes: encender (),y apagar ().
 
+# UML
+
+Ver UML: Sin Aplicar Principio de Inversión de Dependencias.
+
 # Inconvenientes con este diseño
 
 >   Botón depende directamente en Lampara: Si Lampara cambia, Botón cambiará
@@ -75,9 +79,7 @@
 >   Botón no es reusable: No podrías usar presionar () para encender una
 >   Lavadora, por ejemplo.
 
->   **Este diseño es una violación al principio de Inversión de Dependencias,
->   que se define: La aplicación no ha sido separada de la implementación de
->   bajo nivel.**
+# Este diseño es una violación al principio de Inversión de Dependencias, que se define: La aplicación no ha sido separada de la implementación de bajo nivel.
 
 >   La aplicación es la abstracción subyacente de la aplicación, la verdadera
 >   esencia del sistema, su propósito. En este caso sería la detección de los
@@ -103,6 +105,10 @@
 
 >   Creemos una capa intermedia en donde definiremos una interfaz abstracta
 >   asociada a Botón e implementada por cualquier clase como Lampara.
+
+# UML
+
+Ver UML: Aplicando el Principio de Inversio de Dependencias.
 
 # De este modo
 
@@ -150,4 +156,4 @@
 >   Robert C. Martin, (25 de octubre de 2002), Agile Software Development,
 >   Principles, Patterns and Practices, Upper Saddle River, New Jersey, Pearson
 >   Education, Recuperado de:
->   [http://stgtud.github.io/sedc/Lecture/ws13-14/3.5-DIP.html\#mode=document](%20http://stgtud.github.io/sedc/Lecture/ws13-14/3.5-DIP.html#mode=document)
+>   [/Lecture/ws13-14/3.5-DIP.html\#mode=document](%20http://stgtud.github.io/sedc/Lecture/ws13-14/3.5-DIP.html#mode=document)
