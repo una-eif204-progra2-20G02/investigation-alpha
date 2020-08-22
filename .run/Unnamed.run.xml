@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SPID" type="CMakeRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/Con  Principio de Inversion  de Dependecias/cmake-build-debug/CMakeCache.txt" EXPLICIT_BUILD_TARGET_NAME="all">
+  <configuration default="false" name="SPID" type="CMakeRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/Con Principio de Inversion de Dependencias/CMakeLists.txt" EXPLICIT_BUILD_TARGET_NAME="all">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
