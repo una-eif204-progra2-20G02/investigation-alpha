@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias
+# Install script for directory: /cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

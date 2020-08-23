@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/Boton.cpp
+Boton.h
+/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/Boton.h
+
+/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/Boton.h
+Lampara.h
+/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/Lampara.h
+
+/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/Lampara.h
+iostream
+-
+

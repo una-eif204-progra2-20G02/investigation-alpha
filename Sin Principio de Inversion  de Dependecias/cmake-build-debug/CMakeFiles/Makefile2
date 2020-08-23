@@ -44,16 +44,16 @@ RM = /cygdrive/c/Users/computer/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/all
+all: CMakeFiles/SIN_PID.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/clean
+clean: CMakeFiles/SIN_PID.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir
+# Target rules for target CMakeFiles/SIN_PID.dir
 
 # All Build rule for target.
-CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/all:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/depend
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target Sin_Principio_de_Inversion_de_Dependencias"
-.PHONY : CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/all
+CMakeFiles/SIN_PID.dir/all:
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/depend
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target SIN_PID"
+.PHONY : CMakeFiles/SIN_PID.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/rule
+CMakeFiles/SIN_PID.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles" 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SIN_PID.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/SIN_PID.dir/rule
 
 # Convenience name for target.
-Sin_Principio_de_Inversion_de_Dependencias: CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/rule
+SIN_PID: CMakeFiles/SIN_PID.dir/rule
 
-.PHONY : Sin_Principio_de_Inversion_de_Dependencias
+.PHONY : SIN_PID
 
 # clean rule for target.
-CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/clean:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/clean
-.PHONY : CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/clean
+CMakeFiles/SIN_PID.dir/clean:
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/clean
+.PHONY : CMakeFiles/SIN_PID.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

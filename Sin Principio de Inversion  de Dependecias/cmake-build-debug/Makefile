@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/computer/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Sin Principio de Inversion  de Dependecias/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Sin_Principio_de_Inversion_de_Dependencias
+# Target rules for targets named SIN_PID
 
 # Build rule for target.
-Sin_Principio_de_Inversion_de_Dependencias: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Sin_Principio_de_Inversion_de_Dependencias
-.PHONY : Sin_Principio_de_Inversion_de_Dependencias
+SIN_PID: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SIN_PID
+.PHONY : SIN_PID
 
 # fast build rule for target.
-Sin_Principio_de_Inversion_de_Dependencias/fast:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build
-.PHONY : Sin_Principio_de_Inversion_de_Dependencias/fast
+SIN_PID/fast:
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/build
+.PHONY : SIN_PID/fast
 
 Boton.o: Boton.cpp.o
 
@@ -129,7 +129,7 @@ Boton.o: Boton.cpp.o
 
 # target to build an object file
 Boton.cpp.o:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Boton.cpp.o
 .PHONY : Boton.cpp.o
 
 Boton.i: Boton.cpp.i
@@ -138,7 +138,7 @@ Boton.i: Boton.cpp.i
 
 # target to preprocess a source file
 Boton.cpp.i:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.i
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Boton.cpp.i
 .PHONY : Boton.cpp.i
 
 Boton.s: Boton.cpp.s
@@ -147,7 +147,7 @@ Boton.s: Boton.cpp.s
 
 # target to generate assembly for a file
 Boton.cpp.s:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.s
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Boton.cpp.s
 .PHONY : Boton.cpp.s
 
 Lampara.o: Lampara.cpp.o
@@ -156,7 +156,7 @@ Lampara.o: Lampara.cpp.o
 
 # target to build an object file
 Lampara.cpp.o:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Lampara.cpp.o
 .PHONY : Lampara.cpp.o
 
 Lampara.i: Lampara.cpp.i
@@ -165,7 +165,7 @@ Lampara.i: Lampara.cpp.i
 
 # target to preprocess a source file
 Lampara.cpp.i:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.i
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Lampara.cpp.i
 .PHONY : Lampara.cpp.i
 
 Lampara.s: Lampara.cpp.s
@@ -174,7 +174,7 @@ Lampara.s: Lampara.cpp.s
 
 # target to generate assembly for a file
 Lampara.cpp.s:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.s
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/Lampara.cpp.s
 .PHONY : Lampara.cpp.s
 
 main.o: main.cpp.o
@@ -183,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Sin_Principio_de_Inversion_de_Dependencias.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SIN_PID.dir/build.make CMakeFiles/SIN_PID.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -211,7 +211,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Sin_Principio_de_Inversion_de_Dependencias"
+	@echo "... SIN_PID"
 	@echo "... edit_cache"
 	@echo "... Boton.o"
 	@echo "... Boton.i"
