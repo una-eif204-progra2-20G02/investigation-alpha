@@ -125,5 +125,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/DependInfo.cmake"
+  "CMakeFiles/SIN_PID.dir/DependInfo.cmake"
   )
