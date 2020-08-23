@@ -1,4 +1,4 @@
-C:\Users\computer\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias"
+C:\Users\computer\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make.exe -DCMAKE_C_COMPILER=/usr/bin/gcc.exe -DCMAKE_CXX_COMPILER=/usr/bin/g++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias"
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/gcc.exe
@@ -15,4 +15,4 @@ C:\Users\computer\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug
