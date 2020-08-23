@@ -6,31 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.cpp
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Boton.cpp
 Boton.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Boton.h
 
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
-Interface.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
-
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.cpp
-Interface.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
-
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Boton.h
 Lampara.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Lampara.h
+IInteruptor.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.h
 
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.cpp
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.cpp
+IInteruptor.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.h
+
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.h
+
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Lampara.cpp
 Lampara.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Lampara.h
 
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Lampara.h
+IInteruptor.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.h
 iostream
 -
 
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/main.cpp
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/main.cpp
+iostream
+-
 Boton.h
-/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.h
+/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Boton.h
 

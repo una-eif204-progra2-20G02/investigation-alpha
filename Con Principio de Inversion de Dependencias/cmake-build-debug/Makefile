@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/computer/AppData/Local/JetBrains/CLion2020.1/cygwin_cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -150,32 +150,32 @@ Boton.cpp.s:
 	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.s
 .PHONY : Boton.cpp.s
 
-Interface.o: Interface.cpp.o
+IInteruptor.o: IInteruptor.cpp.o
 
-.PHONY : Interface.o
+.PHONY : IInteruptor.o
 
 # target to build an object file
-Interface.cpp.o:
-	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o
-.PHONY : Interface.cpp.o
+IInteruptor.cpp.o:
+	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.o
+.PHONY : IInteruptor.cpp.o
 
-Interface.i: Interface.cpp.i
+IInteruptor.i: IInteruptor.cpp.i
 
-.PHONY : Interface.i
+.PHONY : IInteruptor.i
 
 # target to preprocess a source file
-Interface.cpp.i:
-	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.i
-.PHONY : Interface.cpp.i
+IInteruptor.cpp.i:
+	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.i
+.PHONY : IInteruptor.cpp.i
 
-Interface.s: Interface.cpp.s
+IInteruptor.s: IInteruptor.cpp.s
 
-.PHONY : Interface.s
+.PHONY : IInteruptor.s
 
 # target to generate assembly for a file
-Interface.cpp.s:
-	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.s
-.PHONY : Interface.cpp.s
+IInteruptor.cpp.s:
+	$(MAKE) -f CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/build.make CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.s
+.PHONY : IInteruptor.cpp.s
 
 Lampara.o: Lampara.cpp.o
 
@@ -243,9 +243,9 @@ help:
 	@echo "... Boton.o"
 	@echo "... Boton.i"
 	@echo "... Boton.s"
-	@echo "... Interface.o"
-	@echo "... Interface.i"
-	@echo "... Interface.s"
+	@echo "... IInteruptor.o"
+	@echo "... IInteruptor.i"
+	@echo "... IInteruptor.s"
 	@echo "... Lampara.o"
 	@echo "... Lampara.i"
 	@echo "... Lampara.s"

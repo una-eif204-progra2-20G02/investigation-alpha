@@ -3,18 +3,18 @@
 
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o: ../Boton.cpp
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o: ../Boton.h
-CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o: ../Interface.h
+CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o: ../IInteruptor.h
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o: ../Lampara.h
 
-CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o: ../Interface.cpp
-CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o: ../Interface.h
-CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o: ../Lampara.h
+CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.o: ../IInteruptor.cpp
+CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.o: ../IInteruptor.h
 
+CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o: ../IInteruptor.h
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o: ../Lampara.cpp
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o: ../Lampara.h
 
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o: ../Boton.h
-CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o: ../Interface.h
+CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o: ../IInteruptor.h
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o: ../Lampara.h
 CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o: ../main.cpp
 

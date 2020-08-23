@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o"
-  "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o"
+  "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.o"
   "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o"
   "CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o"
   "Con_Principio_de_Inversion_de_Dependencias.exe"

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Boton.cpp" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o"
-  "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Interface.cpp" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Interface.cpp.o"
-  "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/Lampara.cpp" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o"
-  "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/main.cpp" "/cygdrive/c/Users/computer/CLionProjects/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o"
+  "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Boton.cpp" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Boton.cpp.o"
+  "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/IInteruptor.cpp" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/IInteruptor.cpp.o"
+  "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/Lampara.cpp" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/Lampara.cpp.o"
+  "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/main.cpp" "/cygdrive/c/Users/computer/Desktop/Con Principio de Inversion de Dependencias/cmake-build-debug/CMakeFiles/Con_Principio_de_Inversion_de_Dependencias.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
