@@ -14,10 +14,11 @@ Boton::~Boton() {//Destructor
 }
 
 void Boton::presionar(bool s){//Metodo void con decision
+    Lampara* lamp = new Lampara();
     if(s==true){//Decicion
-        _lampara->enceder();//Salida de dato por llamada de puntero
+        lamp->enceder();//Salida de dato por llamada de puntero
     }
     else if(s==false){//Decision
-        _lampara->apagar();//Salida de dato por llamada de puntero
+        lamp->apagar();//Salida de dato por llamada de puntero
     }
 }
