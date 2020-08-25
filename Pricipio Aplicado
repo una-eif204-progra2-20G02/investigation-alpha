@@ -1,0 +1,102 @@
+#include <iostream>
+using namespace std;
+
+//interfaz
+class Interface {
+public:
+	virtual ~Interface();
+virtual void encender()=0;
+virtual void apagar()=0;
+};
+
+Interface::~Interface(){}
+
+
+
+//Lampara
+class Lampara:public Interface {
+public:
+	
+void encender();
+void apagar();
+};
+
+void Lampara::encender(){
+	cout<<"Lampara encendida \n";
+}
+
+void Lampara::apagar(){
+	cout<<"Lampara apagada \n";
+}
+
+
+//Lavadora
+class Lavadora:public Interface {
+public:
+	
+void encender();
+void apagar();
+};
+
+void Lavadora::encender(){
+	cout<<"Lavadora encendida \n";
+}
+
+void Lavadora::apagar(){
+	cout<<"Lavadora apagada \n";
+}
+
+
+//Boton
+class Boton {
+public:
+Boton(Interface *);
+virtual ~Boton();
+void preionar(bool);
+private:
+	Interface *_i;
+
+};
+
+Boton::Boton(Interface * x) {
+	_i=x;
+}
+
+Boton::~Boton() {
+	delete _i;
+}
+void Boton::preionar(bool s){
+	if(s==true){
+	_i->encender();
+	
+	}else if(s==false){
+	_i->apagar();}
+
+}
+
+
+
+
+
+
+
+
+
+
+int main(){
+	
+	//probando lampara
+	Lampara* lamp= new Lampara();
+	Boton bot(lamp);
+	bot.preionar(true);
+	cout<<"\n";
+	
+	//probando Lavaradora
+	Lavadora* lava= new Lavadora();
+	Boton bot2(lava);
+	bot2.preionar(false);
+	cout<<"\n\n";
+	
+	system("pause");
+	return 0;
+}
