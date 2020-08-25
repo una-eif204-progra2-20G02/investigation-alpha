@@ -17,8 +17,8 @@ Interface::~Interface(){}
 class Lampara:public Interface {
 public:
 	
-void encender();
-void apagar();
+void encender /*override*/();
+void apagar /*override*/();
 };
 
 void Lampara::encender(){
@@ -86,13 +86,13 @@ void Boton::preionar(bool s){
 int main(){
 	
 	//probando lampara
-	Lampara* lamp= new Lampara();
+	Interface* lamp= new Lampara();
 	Boton bot(lamp);
 	bot.preionar(true);
 	cout<<"\n";
 	
 	//probando Lavaradora
-	Lavadora* lava= new Lavadora();
+	Interface* lava= new Lavadora();
 	Boton bot2(lava);
 	bot2.preionar(false);
 	cout<<"\n\n";
